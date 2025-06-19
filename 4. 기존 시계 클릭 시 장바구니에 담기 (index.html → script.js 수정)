@@ -1,0 +1,6 @@
+watchDiv.onclick = () => {
+  const cart = JSON.parse(localStorage.getItem('cart')) || [];
+  cart.push(watch);
+  localStorage.setItem('cart', JSON.stringify(cart));
+  alert(`${watch.name} 장바구니에 추가되었습니다.`);
+};
