@@ -1,0 +1,11 @@
+luxury-watch-market/
+├── index.html
+├── admin.html      ← 관리자 페이지
+├── cart.html       ← 장바구니/결제 페이지
+├── style.css
+├── script.js
+├── admin.js
+├── cart.js
+├── data/
+│   └── watches.js
+└── images/
