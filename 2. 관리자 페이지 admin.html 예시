@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>관리자 페이지 - 시계 관리</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>시계 관리</h2>
+  <div id="watch-table"></div>
+
+  <script src="data/watches.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
